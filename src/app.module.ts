@@ -8,7 +8,7 @@ import { TypeOrmModule } from "@nestjs/typeorm";
   imports: [
     UsersModule,
     TypeOrmModule.forRoot({
-      type: "postgres", host: 'psql01.mikr.us', port: 5432, username: 'j436', password: 'C537_ff3629', database: 'db_j436', synchronize: true, entities: ["**/*.entity.js"]
+      type: "postgres", host: '', port: 5432, username: '', password: '', database: '', synchronize: true, entities: ["**/*.entity.js"]
     }),
   ],
   controllers: [AppController],
